@@ -1,0 +1,53 @@
+:root {
+    --echelle: 10px;
+    --taille_du_graphique: 500px;
+}
+
+#la_page{
+    width: 100%;
+    height: 100%;
+    color: blue;
+}
+
+#le_graphique{
+    width: var(--taille_du_graphique);
+    height: var(--taille_du_graphique);
+    position: relative;
+    border-radius: 50%;
+}
+.atome{
+    position: absolute;
+}
+
+.trait{
+    position: absolute; 
+}
+
+#informations{
+    position: fixed;
+    background-color: black;
+}
+
+#ma_console{
+    position: fixed;
+    right: 0px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+
+#ma_console_2{
+    position: fixed;
+    bottom: 400px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+
+.cercle{
+    position: absolute;
+}
+
+.surcouche{
+    position: absolute;
+}

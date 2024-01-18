@@ -1,0 +1,24 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20,20,20);
+    color: rgb(200,200,200);
+}
+
+.centrer_centrer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrer_espacer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}

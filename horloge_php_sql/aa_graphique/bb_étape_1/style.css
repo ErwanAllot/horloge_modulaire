@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(20,20,20);
+    color: rgb(200,200,200);
+}
+
+:root {
+    --echelle: 10px;
+    --largeur_de_la_croix_celtique: 500px;
+}
+
+h2{color: red;}
+
+#le_graphique{
+    width: var(--largeur_de_la_croix_celtique);
+    height: var(--largeur_de_la_croix_celtique);
+    /* background-color: rgba(0, 0, 250, 0.2); */
+    position: relative;
+    border: 1px solid red;
+}
+.atome{
+    /* background-color: red; */
+    position: absolute;
+    font-size: 15px;
+}
+
+.centrer_centrer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrer_espacer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+/* .display_flex{
+    display: flex;
+    flex-direction: row;
+} */
+
+/* #data{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+} */
+
+#awn{
+    width: 100%;
+    height: 100%;
+}
